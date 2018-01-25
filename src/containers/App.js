@@ -30,7 +30,6 @@ class App extends Component {
         messageClasses: ['message']
     };
 
-
     showInnerCage = (id) => {
         const index = this.state.cages.findIndex(c => c.id === id);
         const cage = {...this.state.cages[index]};
@@ -72,12 +71,6 @@ class App extends Component {
     };
 
     render() {
-
-        // let messageClasses = ['message'];
-        //
-        // if (this.state.isStopGame) {
-        //     messageClasses.push('active');
-        // }
 
         return (
             <div className="App">
