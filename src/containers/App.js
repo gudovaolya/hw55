@@ -37,7 +37,7 @@ class App extends Component {
         let isStopGame = this.state.isStopGame;
         let messageClasses = this.state.messageClasses;
 
-        if(!isStopGame) {
+        if(!isStopGame && !cage.clicked) {
             cage.clicked = true;
             countTry++;
 
