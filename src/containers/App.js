@@ -51,8 +51,6 @@ class App extends Component {
             }
 
             this.setState({cages, countTry});
-        } else {
-            console.log('hhh');
         }
     };
 
