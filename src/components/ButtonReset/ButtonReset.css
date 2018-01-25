@@ -1,0 +1,21 @@
+.btn-reset-row{
+    padding: 20px 0;
+}
+.btn-reset{
+    padding: 10px 20px;
+    background: #0D49AE;
+    color: #cccccc;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #0D49AE;
+    -webkit-box-shadow: inset 0px -1px 1px 0px #1017AE;
+    -moz-box-shadow:    inset 0px -1px 1px 0px #1017AE;
+    box-shadow:         inset 0px -1px 1px 0px #1017AE;
+}
+.btn-reset:active{
+    background: #115CAE;
+    -webkit-box-shadow: inset 0px -3px 1px 0px #1017AE;
+    -moz-box-shadow:    inset 0px -3px 1px 0px #1017AE;
+    box-shadow:         inset 0px -3px 1px 0px #1017AE;
+}

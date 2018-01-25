@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+.board-block{
+  width: 340px;
+  margin: 30px auto;
+  position: relative;
+}
+.message{
+  width: 200px;
+  padding: 20px;
+  background: rgba(255,151,71,0.8);
+  color: #fff;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  margin-left: -120px;
+  display: none;
+}
+.message.active{
+  display: block;
+}

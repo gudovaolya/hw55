@@ -1,0 +1,8 @@
+.try{
+    text-transform: uppercase;
+}
+.try span{
+    font-weight: bold;
+    font-size: 18px;
+    color: #2B89CC;
+}
